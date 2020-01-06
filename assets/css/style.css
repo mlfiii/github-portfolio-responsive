@@ -36,7 +36,39 @@ and ensure that the padding is taken away. */
   float: left;
   text-align: center;
 }
+.row {
+  margin: 0px 0px 0px 0px;
+}
+/*Content items*/
+#content-row {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  height: 100vh;
+}
+#content {
+  color: white;
+  background-color: white;
+  margin: 10px 0px 10px 0px;
+  height: 78vh;
+  position: relative;
+  padding-top: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+}
+/*Footer items*/
 
+.site-footer-formats {
+  /*Footer background color: #666666*/
+  background-color: #666666;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  /*The entire content and the main section content area is 960px wide.*/
+  width: 100%;
+  /* padding-top: 35px; */
+  height: 5vh;
+  position: fixed;
+  bottom: 0;
+}
 /*Various formatting items*/
 /* Teal color (used for headings and backgrounds): #4aaaa5*/
 
@@ -80,6 +112,7 @@ div {
 h1,
 h2 {
   font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 2rem;
 }
 a,
 p,
@@ -110,8 +143,8 @@ img {
   margin-bottom: 10px;
   line-height: 1.8;
   float: left;
-  padding-left: 10px;
-  padding-right: 20px;
+  /* padding-left: 10px;
+  padding-right: 20px; */
 }
 
 p {
