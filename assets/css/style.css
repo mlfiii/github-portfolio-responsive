@@ -172,3 +172,31 @@ input {
   background-color: #4aaaa5;
   padding: 10px 20px 10px 20px;
 }
+
+/*Portfolio*/
+.portfolio-image {
+  height: 100%;
+  width: 100%;
+}
+
+#picture-1-section {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  /* margin-left: 10px;
+  margin-bottom: 10px; */
+}
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#portfolio-picture-label1 {
+  height: 40px;
+  background-color: #4aaaa5;
+  width: 85%;
+  text-align: center;
+  padding-top: 8px;
+}
