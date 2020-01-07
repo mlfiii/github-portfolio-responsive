@@ -174,6 +174,18 @@ input {
 }
 
 /*Portfolio*/
+
+#portfolio-picture-container {
+  color: white;
+  background-color: white;
+  margin: 10px 0px 100px 0px;
+  height: 900px;
+  position: relative;
+  padding-top: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+}
 .portfolio-image {
   height: 100%;
   width: 100%;
@@ -199,4 +211,10 @@ input {
   width: 85%;
   text-align: center;
   padding-top: 8px;
+}
+
+#content-portfolio-row {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  height: 1000px;
+  margin-bottom: 5px;
 }
