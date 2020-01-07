@@ -150,3 +150,25 @@ img {
 p {
   padding: 10px;
 }
+
+/*Contact Page*/
+
+input {
+  width: 100%;
+  line-height: 2;
+  border: solid 1px #777777;
+  /* padding-left: 10px; */
+  /* text-align: start; */
+}
+
+#content-message {
+  height: 230px;
+  width: 100%;
+  border: solid 1px #777777;
+  /* text-align: start; */
+}
+
+.content-submit-button {
+  background-color: #4aaaa5;
+  padding: 10px 20px 10px 20px;
+}
