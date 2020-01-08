@@ -34,7 +34,7 @@ and ensure that the padding is taken away. */
   padding-top: 20px;
   height: 70px;
   float: left;
-  text-align: center;
+  text-align: right;
 }
 .row {
   margin: 0px 0px 0px 0px;
@@ -95,6 +95,9 @@ footer {
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 
 /*Regular font color (used for paragraphs and all text besides the headings): #777777*/
