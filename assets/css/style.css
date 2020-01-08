@@ -42,7 +42,7 @@ and ensure that the padding is taken away. */
 /*Content items*/
 #content-row {
   background: url(../images/white-waves/white-waves.png) repeat top left;
-  height: 100vh;
+  height: 100%;
 }
 #content {
   color: white;
