@@ -47,7 +47,7 @@ and ensure that the padding is taken away. */
 #content {
   color: white;
   background-color: white;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 8.33% 10px 8.33%;
   height: 78vh;
   position: relative;
   padding-top: 10px;
@@ -176,8 +176,32 @@ input {
   border: solid 1px #777777;
 }
 
+#content-contact {
+  color: white;
+  background-color: white;
+  margin: 10px 8.33% 10px 8.33%;
+  height: 60vh;
+  position: relative;
+  padding-top: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+}
+
+#content-form {
+  color: white;
+  background-color: white;
+  margin: 10px 8.33% 10px 8.33%;
+  height: 100%;
+  position: relative;
+  padding-top: 10px;
+  /*Main content border color: #dddddd*/
+  border: solid #dddddd;
+  border-width: 1px 1px 1px 1px;
+}
+
 #content-message {
-  height: 230px;
+  height: 100px;
   width: 100%;
   border: solid 1px #777777;
 }
@@ -236,9 +260,13 @@ input {
 }
 
 .no-padding {
-  padding: 0px 0px 5px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
-.col-md-6 {
+.padding-5 {
+  padding: 0px 0px 5px 0px;
+}
+.col-md-6,
+.col-md-1 {
   padding: 0;
 }
