@@ -187,7 +187,7 @@ input {
   border: solid #dddddd;
   border-width: 1px 1px 1px 1px;
 }
-
+/*
 #content-form {
   color: white;
   background-color: white;
@@ -195,10 +195,10 @@ input {
   height: 100%;
   position: relative;
   padding-top: 10px;
-  /*Main content border color: #dddddd*/
+  /*Main content border color: #dddddd
   border: solid #dddddd;
   border-width: 1px 1px 1px 1px;
-}
+}*/
 
 #content-message {
   height: 100px;
