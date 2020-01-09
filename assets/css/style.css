@@ -54,6 +54,7 @@ and ensure that the padding is taken away. */
   /*Main content border color: #dddddd*/
   border: solid #dddddd;
   border-width: 1px 1px 1px 1px;
+  padding-bottom: 600px;
 }
 
 .left-side-format {
