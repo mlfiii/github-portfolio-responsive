@@ -153,8 +153,7 @@ img {
 
 .index-picture-1-section {
   position: relative;
-  width: 350px;
-  height: 250px;
+  width: 50%;
   margin-left: 10px;
   margin-bottom: 10px;
   line-height: 1.8;
@@ -163,9 +162,9 @@ img {
   padding-right: 20px;
 }
 
-p {
+/* p {
   padding: 10px;
-}
+} */
 
 /*Contact Page*/
 
