@@ -153,9 +153,9 @@ img {
 
 .index-picture-1-section {
   position: relative;
-  width: 50%;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  /* width: 50%; */
+  /* margin-left: 10px;
+  margin-bottom: 10px; */
   line-height: 1.8;
   float: left;
   padding-left: 10px;
