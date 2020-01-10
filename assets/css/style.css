@@ -42,19 +42,18 @@ and ensure that the padding is taken away. */
 /*Content items*/
 #content-row {
   background: url(../images/white-waves/white-waves.png) repeat top left;
-  height: 100%;
+  height: fit-content;
 }
 #content {
   color: white;
   background-color: white;
-  margin: 10px 8.33% 10px 8.33%;
-  height: 78vh;
+  margin: 10px 8.33% 50px 8.33%;
+  height: fit-content;
   position: relative;
   padding-top: 10px;
   /*Main content border color: #dddddd*/
   border: solid #dddddd;
   border-width: 1px 1px 1px 1px;
-  padding-bottom: 600px;
 }
 
 .left-side-format {
@@ -70,7 +69,7 @@ and ensure that the padding is taken away. */
   /*The entire content and the main section content area is 960px wide.*/
   width: 100%;
   /* padding-top: 35px; */
-  height: 5vh;
+  height: fit-content;
   position: fixed;
   bottom: 0;
 }
@@ -178,13 +177,14 @@ input {
 #content-contact {
   color: white;
   background-color: white;
-  margin: 10px 8.33% 10px 8.33%;
+  margin: 10px 8.33% 174px 8.33%;
   height: 60vh;
   position: relative;
-  padding-top: 10px;
+  padding: 10px;
   /*Main content border color: #dddddd*/
   border: solid #dddddd;
   border-width: 1px 1px 1px 1px;
+  height: fit-content;
 }
 
 #content-form {
@@ -215,7 +215,7 @@ input {
 #portfolio-picture-container {
   color: white;
   background-color: white;
-  margin: 10px 0px 100% 0px;
+  margin: 10px 0px 50px 0px;
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -256,6 +256,7 @@ input {
 #content-portfolio-row {
   background: url(../images/white-waves/white-waves.png) repeat top left;
   margin-bottom: 5px;
+  height: fit-content;
 }
 
 .no-padding {
