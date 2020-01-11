@@ -43,7 +43,7 @@ and ensure that the padding is taken away. */
 /*Content items*/
 #content-row {
   background: url(../images/white-waves/white-waves.png) repeat top left;
-  height: inherit;
+  height: auto;
 }
 #content {
   color: white;
@@ -174,6 +174,10 @@ input {
   border: solid 1px #777777;
 }
 
+#contact-row {
+  background: url(../images/white-waves/white-waves.png) repeat top left;
+  height: inherit;
+}
 #content-contact {
   color: white;
   background-color: white;
@@ -259,7 +263,7 @@ input {
 #content-portfolio-row {
   background: url(../images/white-waves/white-waves.png) repeat top left;
   margin-bottom: 5px;
-  height: inherit;
+  height: auto;
 }
 
 .no-padding {
