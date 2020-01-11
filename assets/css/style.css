@@ -31,7 +31,7 @@ and ensure that the padding is taken away. */
 }
 /* Set all attributes that apply to the header buttons area only. */
 #header-buttons {
-  padding-top: 20px;
+  padding-top: 25px;
   height: 70px;
   float: left;
   text-align: right;
