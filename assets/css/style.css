@@ -36,13 +36,14 @@ and ensure that the padding is taken away. */
   float: left;
   text-align: right;
 }
+/*Ensure that there are no margins on the roews.*/
 .row {
   margin: 0px 0px 0px 0px;
 }
 /*Content items*/
 #content-row {
   background: url(../images/white-waves/white-waves.png) repeat top left;
-  height: fit-content;
+  height: inherit;
 }
 #content {
   color: white;
@@ -56,9 +57,10 @@ and ensure that the padding is taken away. */
   border-width: 1px 1px 1px 1px;
 }
 
-.left-side-format {
+/* .left-side-format {
   height: auto;
-}
+} */
+
 /*Footer items*/
 
 .site-footer-formats {
@@ -81,10 +83,6 @@ button,
   background-color: #4aaaa5;
 }
 
-h2,
-.text-teal {
-  color: #4aaaa5;
-}
 button,
 .text-white,
 footer {
@@ -122,9 +120,14 @@ h2 {
 }
 
 h1 {
+  /*Reduce the font size to fit my long name on one row*/
   font-size: 2rem;
 }
-h2 {
+
+h2,
+.text-teal {
+  color: #4aaaa5;
+  /*Reduce the font size to be smaller than h1.*/
   font-size: 1.8rem;
 }
 
@@ -136,33 +139,23 @@ button {
 }
 
 a {
+  /*Remove the underline from the hyperlinks*/
   text-decoration: none;
 }
 button {
+  /*All buttons to be formatted like this*/
   font-size: 18px;
   margin-top: 5px;
 }
 
 img {
   float: left;
-  /* padding: 10px; */
   width: 100%;
   height: 100%;
-}
-
-.img-portfolio {
-  float: left;
-  /* padding: 10px; */
-  width: 100%;
-  height: 100%;
-  border: solid white 5px;
 }
 
 .index-picture-1-section {
   position: relative;
-  /* width: 50%; */
-  /* margin-left: 10px;
-  margin-bottom: 10px; */
   line-height: 1.8;
   float: left;
   padding-left: 10px;
@@ -173,7 +166,7 @@ p {
   padding: 10px;
 }
 
-/*Contact Page*/
+/*Specific to the Contact Page*/
 
 input {
   width: 100%;
@@ -217,7 +210,7 @@ input {
   padding: 10px 20px 10px 20px;
 }
 
-/*Portfolio*/
+/*Specific to the Portfolio page*/
 
 #portfolio-picture-container {
   color: white;
@@ -231,11 +224,14 @@ input {
   border-width: 1px 1px 1px 1px;
   height: 80%;
 }
-.portfolio-image {
-  height: 100%;
-  width: 100%;
-}
 
+.img-portfolio {
+  /*Images on the portfolio page are different than others*/
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: solid white 5px;
+}
 #picture-1-section {
   position: relative;
   width: 300px;
@@ -263,7 +259,7 @@ input {
 #content-portfolio-row {
   background: url(../images/white-waves/white-waves.png) repeat top left;
   margin-bottom: 5px;
-  height: fit-content;
+  height: inherit;
 }
 
 .no-padding {
